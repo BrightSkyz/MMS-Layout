@@ -1,10 +1,4 @@
 <?php echo file_get_contents('../include/header.php'); ?>
-<div class="btn-group btn-group-justified">
-   <a href="1overview.php" class="btn btn-primary">Overview</a>
-   <a href="1console.php" class="btn btn-primary">Console</a>
-   <a href="1ftp.php" class="btn btn-primary">FTP</a>
-   <a href="1mymql.php" class="btn btn-primary">MySQL</a>
-</div>
 <h2>Edit Server</h2>
 <p>
 When editing a server, keep in mind:<br>
@@ -13,6 +7,13 @@ When editing a server, keep in mind:<br>
 &bull; The port 25565 will only be allowed if you have permission for that server.
 </p>
 <div class="btn-group btn-group-justified">
+   <a href="1overview.php" class="btn btn-primary">Overview</a>
+   <a href="1console.php" class="btn btn-primary">Console</a>
+   <a href="1ftp.php" class="btn btn-primary">FTP</a>
+   <a href="1mymql.php" class="btn btn-primary">MySQL</a>
+</div>
+<br>
+<div class="btn-group btn-group-justified">
    <a href="#" class="btn btn-primary">Start</a>
    <a href="#" class="btn btn-primary">Stop</a>
    <a href="#" class="btn btn-primary">Restart</a>
@@ -20,19 +21,19 @@ When editing a server, keep in mind:<br>
 </div>
 <br>
 <div class="form-group">
-   <label class="col-lg-2 control-label">Status</label>
+   <label class="control-label">Status</label>
    <input disabled type="text" class="form-control" placeholder="Server Status" value="Offline">
 </div>
 <div class="form-group">
-   <label class="col-lg-2 control-label">Server Name</label>
+   <label class="control-label">Server Name</label>
    <input type="text" class="form-control" placeholder="My Minecraft Server" value="Test Server">
 </div>
 <div class="form-group">
-   <label class="col-lg-2 control-label">Players</label>
+   <label class="control-label">Players</label>
    <input type="text" class="form-control" placeholder="20" value="10">
 </div>
 <div class="form-group">
-   <label class="col-lg-2 control-label">Select Avalible Node</label>
+   <label class="control-label">Select Avalible Node</label>
    <select class="form-control" id="select">
       <option selected>Local</option>
       <option disabled>USA/Node1</option>
@@ -45,18 +46,18 @@ When editing a server, keep in mind:<br>
    </select>
 </div>
 <div class="form-group">
-   <label class="col-lg-2 control-label">IP</label>
+   <label class="control-label">IP</label>
    <input disabled type="text" class="form-control" placeholder="12.34.567.89" value="71.74.111.83">
 </div>
 <div class="form-group">
-   <label class="col-lg-2 control-label">Select Avalible Port for Local</label>
+   <label class="control-label">Select Avalible Port for Local</label>
    <select class="form-control" id="select">
       <option>25565</option>
       <option selected>25585</option>
    </select>
 </div>
 <div class="form-group">
-   <label class="col-lg-2 control-label">Select one of your templates.</label>
+   <label class="control-label">Select one of your templates.</label>
    <select class="form-control" id="select">
       <option selected>None</option>
       <option>CastleBuild</option>

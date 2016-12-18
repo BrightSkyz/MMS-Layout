@@ -1,9 +1,9 @@
 <?php echo file_get_contents('../include/header.php'); ?>
 <div class="btn-group btn-group-justified">
-   <a href="1.php" class="btn btn-primary">Overview</a>
-   <a href="console.php" class="btn btn-primary">Console</a>
-   <a href="ftp.php" class="btn btn-primary">FTP</a>
-   <a href="mymql.php" class="btn btn-primary">MySQL</a>
+   <a href="1overview.php" class="btn btn-primary">Overview</a>
+   <a href="1console.php" class="btn btn-primary">Console</a>
+   <a href="1ftp.php" class="btn btn-primary">FTP</a>
+   <a href="1mymql.php" class="btn btn-primary">MySQL</a>
 </div>
 <h2>Edit Server</h2>
 <p>

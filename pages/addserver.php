@@ -1,19 +1,19 @@
 <?php echo file_get_contents('include/header.php'); ?>
 <h2>Create Server</h2>
 <div class="form-group">
-   <label class="col-lg-2 control-label">Name the server</label>
+   <label class="control-label">Name the server</label>
    <input type="text" class="form-control" placeholder="Server Name">
 </div>
 <div class="form-group">
-   <label class="col-lg-2 control-label">Type the name of the user that will have the server</label>
+   <label class="control-label">Type the name of the user that will have the server</label>
    <input type="text" class="form-control" placeholder="Username">
 </div>
 <div class="form-group">
-   <label class="col-lg-2 control-label">Type the max server RAM (in MB)</label>
+   <label class="control-label">Type the max server RAM (in MB)</label>
    <input type="text" class="form-control" placeholder="RAM in MB">
 </div>
 <div class="form-group">
-   <label class="col-lg-2 control-label">Select Avalible Node</label>
+   <label class="control-label">Select Avalible Node</label>
    <select class="form-control" id="select">
       <option>Local</option>
       <option disabled>USA/Node1</option>
@@ -26,7 +26,7 @@
    </select>
 </div>
 <div class="form-group">
-   <label class="col-lg-2 control-label">Select Avalible Port for FRANCE/Node2</label>
+   <label class="control-label">Select Avalible Port for FRANCE/Node2</label>
    <select class="form-control" id="select">
       <option>25362</option>
       <option>24574</option>

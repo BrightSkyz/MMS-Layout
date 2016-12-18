@@ -37,7 +37,7 @@
             <td>3</td>
             <td><a href="/pages/server/3overview.php">Crazy Factions</td>
             <td>78/83</td>
-            <td>play.crazyfac.com</td>
+            <td>57.33.124.37</td>
             <td>25565</td>
             <td>Online</td>
             <td>USA/Node4</td>
@@ -46,7 +46,7 @@
             <td>4</td>
             <td><a href="/pages/server/4overview.php">Billys Creative Server</td>
             <td>--/--</td>
-            <td>billy.myhost.co</td>
+            <td>24.88.28.27</td>
             <td>25693</td>
             <td>Suspended</td>
             <td>FRANCE/Node2</td>
@@ -55,7 +55,7 @@
             <td>5</td>
             <td><a href="/pages/server/5overview.php">KitPvP Land</td>
             <td>35/40</td>
-            <td>mc.kitpvp-games.co.uk</td>
+            <td>73.27.200.27</td>
             <td>25565</td>
             <td>Online</td>
             <td>FRANCE/Dedicated1</td>

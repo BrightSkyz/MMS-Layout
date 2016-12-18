@@ -1,27 +1,10 @@
 <?php echo file_get_contents('../include/header.php'); ?>
-<nav class="navbar navbar-default navbar-top">
-   <div class="container-fluid">
-      <div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-         </button>
-         <a class="navbar-brand" href="/pages/servers.php">Edit Server</a>
-      </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-         <ul class="nav navbar-nav">
-            <li><a href="/pages/server/1.php">Overview</a></li>
-            <li><a href="/pages/server/console.php">Console</a></li>
-            <li><a href="/pages/server/ftp.php">FTP</a></li>
-            <li><a href="/pages/server/mysql.php">MySQL</a></li>
-         </ul>
-      </div><!-- /.navbar-collapse -->
-   </div><!-- /.container-fluid -->
-</nav>
+<div class="btn-group btn-group-justified">
+   <a href="1.php" class="btn btn-primary">Overview</a>
+   <a href="console.php" class="btn btn-primary">Stop</a>
+   <a href="ftp.php" class="btn btn-primary">Restart</a>
+   <a href="mymql.php" class="btn btn-primary">Kill</a>
+</div>
 <h2>Edit Server</h2>
 <p>
 When editing a server, keep in mind:<br>

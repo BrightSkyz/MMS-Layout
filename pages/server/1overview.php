@@ -1,23 +1,19 @@
 <?php echo file_get_contents('../include/header.php'); ?>
 <h2>Edit Server</h2>
-<p>
-When editing a server, keep in mind:<br>
-&bull; Moving a server to a different node changes the IP.<br>
-&bull; You can only move servers to nodes that are online and you have permission to the node and action.<br>
-&bull; The port 25565 will only be allowed if you have permission for that server.
-</p>
 <div class="btn-group btn-group-justified">
    <a href="1overview.php" class="btn btn-primary">Overview</a>
    <a href="1console.php" class="btn btn-primary">Console</a>
    <a href="1ftp.php" class="btn btn-primary">FTP</a>
    <a href="1mymql.php" class="btn btn-primary">MySQL</a>
+   <a href="" class="btn btn-warning">Suspend Server</a>
+   <a href="" class="btn btn-danger">Delete Server</a>
 </div>
 <br>
 <div class="btn-group btn-group-justified">
-   <a href="#" class="btn btn-primary">Start</a>
-   <a href="#" class="btn btn-primary">Stop</a>
-   <a href="#" class="btn btn-primary">Restart</a>
-   <a href="#" class="btn btn-primary">Kill</a>
+   <a href="" class="btn btn-primary">Start</a>
+   <a href="" class="btn btn-primary">Stop</a>
+   <a href="" class="btn btn-primary">Restart</a>
+   <a href="" class="btn btn-primary">Kill</a>
 </div>
 <br>
 <div class="form-group">
@@ -28,12 +24,28 @@ When editing a server, keep in mind:<br>
    <label class="control-label">Server Name</label>
    <input type="text" class="form-control" placeholder="My Minecraft Server" value="Test Server">
 </div>
-<div class="form-group">
-   <label class="control-label">Players</label>
-   <input type="text" class="form-control" placeholder="20" value="10">
+<label class="control-label">Players <small>&bull; The unlimited will make it always have 5 more slots than current player ammount.</small></label>
+<div class="row">
+   <div class="col-lg-6">
+      <div class="input-group">
+         <span class="input-group-addon">
+            <input type="radio">
+         </span>
+         <input disabled type="text" class="form-control" value="Unlimited">
+      </div>
+   </div>
+   <div class="col-lg-6">
+      <div class="input-group">
+         <span class="input-group-addon">
+            <input selected type="radio">
+         </span>
+         <input type="text" class="form-control" value="10">
+      </div>
+   </div>
 </div>
+<br>
 <div class="form-group">
-   <label class="control-label">Select Avalible Node</label>
+   <label class="control-label">Select Avalible Node <small>&bull; You can only move servers to nodes that are online and you have permission to the node and action.</small></label>
    <select class="form-control" id="select">
       <option selected>Local</option>
       <option disabled>USA/Node1</option>
@@ -46,11 +58,11 @@ When editing a server, keep in mind:<br>
    </select>
 </div>
 <div class="form-group">
-   <label class="control-label">IP</label>
+   <label class="control-label">IP <small>&bull; Moving a server to a different node changes the IP.</small></label>
    <input disabled type="text" class="form-control" placeholder="12.34.567.89" value="71.74.111.83">
 </div>
 <div class="form-group">
-   <label class="control-label">Select Avalible Port for Local</label>
+   <label class="control-label">Select Avalible Port for Local <small>&bull; The port 25565 will only be allowed if you have permission for that server.</small></label>
    <select class="form-control" id="select">
       <option>25565</option>
       <option selected>25585</option>
@@ -61,7 +73,7 @@ When editing a server, keep in mind:<br>
    <select class="form-control" id="select">
       <option selected>None</option>
       <option>CastleBuild</option>
-      <option>TNT_Wars</option>
+      <option>TNTWars</option>
    </select>
 </div>
 <div class="btn-group" role="group">

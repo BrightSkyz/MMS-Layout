@@ -29,17 +29,13 @@
    <div class="col-lg-6">
       <div class="input-group">
          <span class="input-group-addon">
-            <input type="radio">
+            <input name="players" type="radio">
          </span>
          <input disabled type="text" class="form-control" value="Unlimited">
-      </div>
-   </div>
-   <div class="col-lg-6">
-      <div class="input-group">
          <span class="input-group-addon">
-            <input selected type="radio">
+            <input selected name="players" type="radio">
          </span>
-         <input type="text" class="form-control" value="10">
+         <input type="text" class="form-control" value="25">
       </div>
    </div>
 </div>

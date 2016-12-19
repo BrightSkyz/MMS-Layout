@@ -1,14 +1,20 @@
 <?php echo file_get_contents('../include/header.php'); ?>
 <h2>Edit Server</h2>
-<div class="btn-group btn-group-justified">
+<div class="row">
+<div class="col-lg-2">
+<div class="btn-group-vertical">
    <a href="2overview.php" class="btn btn-primary">Overview</a>
    <a href="2console.php" class="btn btn-primary">Console</a>
    <a href="2ftp.php" class="btn btn-primary">FTP</a>
    <a href="2mymql.php" class="btn btn-primary">MySQL</a>
+   <br>
    <a href="" class="btn btn-warning">Suspend Server</a>
    <a href="" class="btn btn-danger">Delete Server</a>
 </div>
+</div>
 <br>
+<div class="col-lg-10">
+
 <div class="btn-group btn-group-justified">
    <a href="" class="btn btn-primary">Start</a>
    <a href="" class="btn btn-primary">Stop</a>
@@ -78,5 +84,5 @@
 </div>
 <div class="btn-group" role="group">
    <a href="/pages/servers.php"><button type="button" class="btn btn-primary">Submit Changes</button></a>
-</div>
+</div></div></div>
 <?php echo file_get_contents('../include/footer.php'); ?>

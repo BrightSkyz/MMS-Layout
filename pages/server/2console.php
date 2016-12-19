@@ -3,10 +3,10 @@
 <div class="row">
 <div class="col-lg-2">
 <div class="btn-group-vertical">
-   <a href="1overview.php" class="btn btn-primary">Overview</a>
-   <a href="1console.php" class="btn btn-primary">Console</a>
-   <a href="1ftp.php" class="btn btn-primary">FTP</a>
-   <a href="1mymql.php" class="btn btn-primary">MySQL</a>
+   <a href="2overview.php" class="btn btn-primary">Overview</a>
+   <a href="2console.php" class="btn btn-primary">Console</a>
+   <a href="2ftp.php" class="btn btn-primary">FTP</a>
+   <a href="2mymql.php" class="btn btn-primary">MySQL</a>
    <br>
    <a href="" class="btn btn-warning">Suspend Server</a>
    <a href="" class="btn btn-danger">Delete Server</a>
